@@ -144,3 +144,52 @@ p {
   letter-spacing: 0em;
   text-align: left;
 }
+
+.skills_sub {
+  color: #2F80ED;
+  padding-top: 170px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.skills_title h3 {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 83px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.work_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work_one {
+  width: 50%;
+  height: 457px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+}
+.work_two {
+  width: 50%;
+}
+.work_three {
+  width: 50%;
+}
+.work_four {
+  width: 50%;
+}
+.work_five {
+  width: 50%;
+}
+.work_six {
+  width: 50%;
+}
