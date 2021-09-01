@@ -22,8 +22,6 @@ p {
 .container {
   width: 100%;
   max-width: 1060px;
-  padding-left: 1rem;
-  padding-right: 1rem;
   margin: 0 auto;
 }
 
@@ -165,31 +163,244 @@ p {
   text-align: left;
 }
 
+.works_title {
+  text-align: right;
+}
+
+.works_sub {
+  color: #2F80ED;
+  padding-top: 170px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0em;
+
+}
+
+.works_title h3 {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 83px;
+  letter-spacing: 0em;
+  margin-bottom: 80px;
+}
+
 .work_inner {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.work_inner p {
+  margin: 0 auto;
+  padding: 90px 70px 0px 70px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 185.8%;
+  color: #1D262F;
 }
 
 .work_one {
-  width: 50%;
+  margin-right: 10px;
+  width: 520px;
   height: 457px;
   left: 0px;
   top: 0px;
   border-radius: 0px;
+  background: #f7f9fb;
+  border: 3px solid #ffffff;
+}
+
+.work_one:hover {
+  border: 3px solid #2F80ED;
+}
+
+.work_one div {
+  padding: 80px 0px 0px 70px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 185.8%;
+  color: #000000;
+  opacity: 0.2;
+  
+}
+
+.work_two {
+  margin-top: 125px;
+  margin-left: 10px;
+  width: 520px;
+  height: 457px;
+  left: 0px;
+  background: #f7f9fb;
+  top: 0px;
+  border-radius: 0px;
+  border: 3px solid #ffffff;
+}
+
+.work_two:hover {
+  border: 3px solid #2F80ED;
+}
+
+.work_two div {
+  padding: 80px 0px 0px 70px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 185.8%;
+  color: #000000;
+  opacity: 0.2;
+}
+
+.work_three {
+  margin-top: -105px;
+  margin-right: 10px;
+  width: 520px;
+  height: 457px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #f7f9fb;
+  border: 3px solid #ffffff;
+}
+
+.work_three:hover {
+  border: 3px solid #2F80ED;
+}
+
+.work_three div {
+  padding: 80px 0px 0px 70px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 185.8%;
+  color: #000000;
+  opacity: 0.2;
+}
+
+.work_four {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 520px;
+  height: 457px;
+  left: 0px;
+  background: #f7f9fb;
+  top: 0px;
+  border-radius: 0px;
+  border: 3px solid #ffffff;
+}
+
+.work_four:hover {
+  border: 3px solid #2F80ED;
+}
+
+.work_four div {
+  padding: 80px 0px 0px 70px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 185.8%;
+  color: #000000;
+  opacity: 0.2;
+}
+
+.work_five {
+  margin-top: -105px;
+  margin-right: 10px;
+  width: 520px;
+  height: 457px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #f7f9fb;
+  border: 3px solid #ffffff;
+}
+
+.work_five:hover {
+  border: 3px solid #2F80ED;
+}
+
+.work_five div {
+  padding: 80px 0px 0px 70px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 185.8%;
+  color: #000000;
+  opacity: 0.2;
+}
+
+.work_six {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 520px;
+  height: 457px;
+  left: 0px;
+  background: #f7f9fb;
+  top: 0px;
+  border-radius: 0px;
+  border: 3px solid #ffffff;
+}
+
+.work_six:hover {
+  border: 3px solid #2F80ED;
+}
+
+.work_six div {
+  padding: 80px 0px 0px 70px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 185.8%;
+  color: #000000;
+  opacity: 0.2;
+}
+
+.contact {
+  padding-top: 170px;
+}
+
+.contact_sub {
+  color: #2F80ED;
+  padding-top: 170px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 0em;
 
 }
-.work_two {
-  width: 50%;
+
+.contact_title h3 {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0em;
+  padding-bottom: 80px;
 }
-.work_three {
-  width: 50%;
+
+.contact_email {
+  height: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
-.work_four {
-  width: 50%;
+
+.email_ico {
+  padding-top: 15px;
+  padding-right: 20px;
 }
-.work_five {
-  width: 50%;
+
+.email_text {
+  text-decoration: none;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 46px;
+  text-align: left;
+  color: #1D262F;
 }
-.work_six {
-  width: 50%;
+  
+.like_inner {
+  padding-top: 430px;
+  padding-bottom: 320px;
+  text-align: center;
 }
